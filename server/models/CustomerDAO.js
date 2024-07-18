@@ -48,6 +48,11 @@ const CustomerDAO = {
     const newvalues = {password:password};
     const result = await Models.Customer.findOneAndUpdate(query, newvalues,{new:true});
     return result;
+  },
+  async selectByCount(){
+    const query = {};
+    const noCustomers = await Models.Customer.find(query).count().exec();
+    return noCustomers;
   }
 };
 module.exports = CustomerDAO;
