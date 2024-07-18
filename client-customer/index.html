@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giao Diện Trang Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="datatable.css">
+  <style>
+    /* Thêm một số phong cách bổ sung để làm cho trang web thêm đẹp */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    .content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chào mừng đến với trang web của chúng tôi</h1>
+  </header>
+  <div class="body-customer">
+    <nav class="border-bottom">
+      <ul class="menu">
+        <li class="menu">Trang chủ</li>
+        <li class="menu">Giới thiệu</li>
+        <li class="menu">Dịch vụ</li>
+        <li class="menu">Liên hệ</li>
+      </ul>
+      <form class="search float-right">
+        <input class="keyword" type="text" placeholder="Tìm kiếm...">
+      </form>
+      <div class="float-clear"></div>
+    </nav>
+    <div class="content">
+      <h2 class="text-center">Dữ liệu</h2>
+      <table class="datatable">
+        <tr class="datatable">
+          <th>Tên</th>
+          <th>Tuổi</th>
+          <th>Địa chỉ</th>
+        </tr>
+        <tr class="datatable">
+          <td>Nguyễn Văn A</td>
+          <td>30</td>
+          <td>Hà Nội</td>
+        </tr>
+        <tr class="datatable">
+          <td>Trần Thị B</td>
+          <td>25</td>
+          <td>TP. Hồ Chí Minh</td>
+        </tr>
+        <tr class="datatable">
+          <td>Phạm Văn C</td>
+          <td>27</td>
+          <td>Đà Nẵng</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <footer>
+    <p>Bản quyền © 2024 Công ty TNHH ABC</p>
+  </footer>
+</body>
+</html>
