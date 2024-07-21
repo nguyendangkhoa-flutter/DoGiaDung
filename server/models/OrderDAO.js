@@ -36,7 +36,7 @@ const OrderDAO = {
   },
   async sumTotalApproved(){
     const query = {status: 'APPROVED'};
-    const noOrders = await Models.Order.find(query).count().exec();
+    const orders = await Models.Order.find(query).exec();
     const sum =  orders.reduce((sum, order)=> sum + order.total, 0);
     return sum;
   }
