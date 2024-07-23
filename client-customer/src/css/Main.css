@@ -1,0 +1,68 @@
+/* Main.css */
+.body-customer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu {
+    background-color: #343a40;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .inform {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .routes-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      padding: 10px 0;
+    }
+  
+    .menu a {
+      padding: 0 10px;
+    }
+  
+    .routes-container {
+      margin: 10px;
+      padding: 15px;
+    }
+  }
+  

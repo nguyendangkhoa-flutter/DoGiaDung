@@ -1,0 +1,66 @@
+/* Myprofile.css */
+.myprofile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f6f8;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .form-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .form-table th, .form-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .form-table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .form-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .form-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
